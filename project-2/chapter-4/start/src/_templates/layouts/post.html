@@ -1,7 +1,6 @@
 {% include 'includes/header.html' %}
 {% if title %}<h1 class="mb-1">{{ title }}</h1>{% endif %}
-
-<p class="m-0">By {{ author }} | Posted on {{ dateString }}</p>
+{% if author %}<p class="m-0">By {{ author }} | Posted on {{ dateString }}</p>{% endif %}
 
 {{ content }}
 <!-- create nextPost and previousPost variables -->
