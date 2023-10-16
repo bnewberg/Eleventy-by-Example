@@ -1,4 +1,9 @@
 module.exports = function(eleventyConfig) {
+    // Set the collection to reverse chronological order
+    eleventyConfig.addCollection("post", (collection) => {
+        return collection.getFilteredByTag("post").reverse();
+    });
+
     // Copy `assets/` to `_site/assets`
     eleventyConfig.addPassthroughCopy("assets");
 
