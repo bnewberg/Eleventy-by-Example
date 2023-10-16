@@ -1,5 +1,8 @@
 ---
 title: My First Blog Post
+description: >
+    This is a description of my first blog post.
+    It's a little short, but that's okay.
 date: "2022-01-01"
 ---
 
