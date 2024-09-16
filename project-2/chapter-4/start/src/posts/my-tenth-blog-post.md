@@ -6,6 +6,7 @@ description: >
 categories:
     - "blog"
     - "development"
+    - "11ty"
 ---
 
 ## This is a headline for a blog post
