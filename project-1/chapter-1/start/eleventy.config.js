@@ -7,7 +7,8 @@ module.exports = function(eleventyConfig) {
     return {
         dir: {
             input: "src",
-            output: "_site" // This is the default, but it's included here for clarity.
+            output: "_site", // This is the default, but it's included here for clarity.
+            includes: "_templates"
         }
     }
 
